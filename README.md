@@ -12,9 +12,9 @@ Actually, the app includes an adapted copy of the [Leaflet-providers](https://gi
 
 ## Shapefiles (for testing)
 
-There are some zipped shapefile examples in the 'shapefile-examples' folder in this repo:
+There are some zipped shapefile examples in the [shapefile-examples](https://github.com/oxy86/react-leaflet-maps-shapefile/tree/main/shapefile-examples) folder in this repo:
 
-- [World Borders](http://thematicmapping.org/downloads/world_borders.php) shapefile) 
+- [World Borders](http://thematicmapping.org/downloads/world_borders.php) shapefile
 
 ### Other online shapefile sources
 
