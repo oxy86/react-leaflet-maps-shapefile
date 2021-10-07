@@ -1,5 +1,6 @@
 {
-  "name": "react-maps",
+  "name": "react-leaflet-maps-shapefile",
+  "homepage": "https://oxy86.github.io/react-leaflet-maps-shapefile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "leaflet-defaulticon-compatibility": "^0.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.1",
     "react-scripts": "4.0.3",
     "shpjs": "^4.0.2",
     "web-vitals": "^1.0.1"
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -31,6 +35,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-leaflet": "^3.2.1"
+    "gh-pages": "^3.2.3"
   }
 }
