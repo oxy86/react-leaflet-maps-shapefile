@@ -55,8 +55,8 @@ const MyMap = () => {
     var file = e.target.files[0];
     reader.readAsArrayBuffer(file);
     reader.onload = function (buffer) {
-      console.log("loading data...")
-      setGeodata(buffer.target.result);
+      console.log("loading data...", file.name)
+      setGeodata( {data: buffer.target.result, name: file.name });
     }
   }
 
@@ -86,8 +86,8 @@ const MyMap = () => {
   let ShapeLayers = null;
   if (geodata !== null) {
     ShapeLayers = (
-      <Overlay checked name='Ορια Δήμων Καλλικράτη'>
-        <ShapeFile data={geodata} style={style} onEachFeature={onEachFeature} />
+      <Overlay checked name={geodata.name}>
+        <ShapeFile data={geodata.data} style={style} onEachFeature={onEachFeature} />
       </Overlay>);
   }
 
