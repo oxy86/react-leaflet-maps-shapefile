@@ -45,7 +45,7 @@
 .github-fork-ribbon {
   /* The right and left lasses determine the side we attach our banner to */
   position: absolute;
-z-index:1;
+  z-index:1000;
   /* Add a bit of padding to give some substance outside the "stitching" */
   padding: 2px 0;
 
