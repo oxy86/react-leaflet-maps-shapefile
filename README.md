@@ -12,6 +12,12 @@ Actually, the app includes an adapted copy of the [Leaflet-providers](https://gi
 
 ## Shapefiles (for testing)
 
+There are some zipped shapefile examples in the 'shapefile-examples' folder in this repo:
+
+- [World Borders](http://thematicmapping.org/downloads/world_borders.php) shapefile) 
+
+### Other online shapefile sources
+
 USA: The US Census Bureau offers zipped shapefiles in the following page (contains many state-based and national congressional district cartographic boundary data):
 
 https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
