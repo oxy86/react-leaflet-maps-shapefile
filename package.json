@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-maps-shapefile",
-  "homepage": "https://oxy86.github.io/react-leaflet-maps-shapefile",
+  "homepage": "http://oxy86.github.io/react-leaflet-maps-shapefile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

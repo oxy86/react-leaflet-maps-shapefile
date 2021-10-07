@@ -82,14 +82,6 @@ const MyMap = () => {
 
 
 
-  function MapPlaceholder() {
-    return (
-      <p>
-        Map of Greece.{' '}
-        <noscript>You need to enable JavaScript to see this map.</noscript>
-      </p>
-    )
-  }
 
   let ShapeLayers = null;
   if (geodata !== null) {
@@ -100,16 +92,15 @@ const MyMap = () => {
   }
 
 
+  function MapPlaceholder() {
+    return (
+      <p>
+        Map of Greece.{' '}
+        <noscript>You need to enable JavaScript to see this map.</noscript>
+      </p>
+    )
+  }
 
-  // Object.keys(TileProviders).map((providerName, index) => {
-
-
-  //   if (!TileProviders[providerName].options.variant) {
-  //     console.log(providerName)
-  //     console.log(TileProviders[providerName])
-  //   }
-
-  // })
 
   return (
     <>

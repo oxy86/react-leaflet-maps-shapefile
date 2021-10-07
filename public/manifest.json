@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Leaflet Maps Shapefile",
+  "name": "React Leaflet Maps with Shapefile Support Application",
   "icons": [
     {
       "src": "favicon.ico",

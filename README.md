@@ -3,12 +3,22 @@
 [![example](https://github.com/oxy86/react-leaflet-maps-shapefile/raw/main/public/app-screenshot.jpg)](#)
 
 
-This example React application uses [react-leaflet](https://www.npmjs.com/package/react-leaflet) and [shpjs](https://www.npmjs.com/package/shpjs?activeTab=readme) npm packages to display a full-screen interactive map (like google maps, without geolocation, but for free) with a simple button to upload geospatial data files in the [shapefile (.shp) spatial data format](https://en.wikipedia.org/wiki/Shapefile). As a bonus, it shows a marker on the centre of the map, and displays the latitude/longitude of that marker. :P
+This example React application uses [react-leaflet](https://www.npmjs.com/package/react-leaflet) and [shpjs](https://www.npmjs.com/package/shpjs?activeTab=readme) npm packages to display a full-screen interactive map (like google maps, without geolocation, but for free) with a simple button to upload geospatial data files in zipped [shapefile (.shp) spatial data format](https://en.wikipedia.org/wiki/Shapefile). As a bonus, it shows a marker on the centre of the map, and displays the latitude/longitude of that marker. :P
 
 Supports 30+ free [Tile Layers](https://wiki.openstreetmap.org/wiki/Tile_servers), i.e. OpenStreetMap, Stamen, ESRI, Stadia, USGI, etc. 
 Actually, the app includes an adapted copy of the [Leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) configurations for various tiles providers. Fork it and edit the lib/TileProviders.js file to add your API keys, if you want to use one of the non-free tile providers (api key support not tested, though, you may have to hack it).
 
 [Try the live app](https://oxy86.github.io/react-leaflet-maps-shapefile/) and have fun!
+
+## Shapefiles (for testing)
+
+USA: The US Census Bureau offers zipped shapefiles in the following page (contains many state-based and national congressional district cartographic boundary data):
+
+https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+
+EU: The European Environment Agency offers zipped shapefiles and other GIS data of European countries in the following page (contains country borders and, where applicable, marine Exclusive Economic Zones): 
+
+https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2
 
 
 ## Available Scripts
