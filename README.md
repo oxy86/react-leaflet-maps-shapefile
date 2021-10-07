@@ -12,20 +12,22 @@ Actually, the app includes an adapted copy of the [Leaflet-providers](https://gi
 
 ## Shapefiles (for testing)
 
-There are some zipped shapefile examples in the [shapefile-examples](https://github.com/oxy86/react-leaflet-maps-shapefile/tree/main/shapefile-examples) folder in this repo:
+- Examples: There are some zipped shapefile examples in the [shapefile-examples](https://github.com/oxy86/react-leaflet-maps-shapefile/tree/main/shapefile-examples) folder 
 
-- [World Borders](http://thematicmapping.org/downloads/world_borders.php) shapefile
+- World shapefile maps
 
-### Other online shapefile sources
+-- [Natural Earth - world maps](http://www.naturalearthdata.com/features/)
+-- [GADM](http://www.gadm.org/version2)
 
-USA: The US Census Bureau offers zipped shapefiles in the following page (contains many state-based and national congressional district cartographic boundary data):
+- USA: The US Census Bureau offers zipped shapefiles at [this page](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html) (contains many state-based and national congressional district cartographic boundary data):
 
-https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+- EU: The European Environment Agency offers zipped shapefiles and other GIS data of European countries [on this page](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2) (contains country borders and, where applicable, marine Exclusive Economic Zones): 
 
-EU: The European Environment Agency offers zipped shapefiles and other GIS data of European countries in the following page (contains country borders and, where applicable, marine Exclusive Economic Zones): 
+- Country shapefile maps
 
-https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2
+-- [GADM](http://www.gadm.org/country)
 
+-- [Humanitarian Data Exchange](https://data.humdata.org/search?ext_geodata=1&q=&ext_page_size=25)
 
 ## Available Scripts
 
