@@ -9,7 +9,20 @@ import { ShapeFile } from './ShapeFile';
 
 import { TileProviders } from '../lib/TileProviders';
 
+import  colorbrewer from 'colorbrewer';
+
+var iconv = require('iconv-lite');
+
+
+
+
 const MyMap = () => {
+  
+  // const colorbrewer = require('colorbrewer');
+
+  // const colorbrewer = require('color_ramps');
+  console.log(colorbrewer.schemeGroups.sequential);
+  console.log(colorbrewer)
 
   const center = [37.983810, 23.727539]
   const zoom = 7
@@ -63,6 +76,9 @@ const MyMap = () => {
   const onEachFeature = (feature, layer) => {
     if (feature.properties) {
       layer.bindPopup(Object.keys(feature.properties).map(function (k) {
+        if(k === '__color__'){
+          return;
+        } 
         return k + ": " + feature.properties[k];
       }).join("<br />"), {
         maxHeight: 200
@@ -70,13 +86,18 @@ const MyMap = () => {
     }
   }
 
-  const style = () => {
+  const style = (feature) => {
+    console.log ( feature );
     return ({
-      weight: 1,
       opacity: 1,
-      color: "blue",
-      dashArray: "3",
-      fillOpacity: 0.4
+      fillOpacity: 0.7,
+      radius: 6,
+      weight: 2,
+      dashArray: "2",
+      // from http://stackoverflow.com/a/15710692
+      // color: colorbrewer.Spectral[11][Math.abs(JSON.stringify(feature).split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0)) % 11]
+      color: colorbrewer.Spectral[11] [ Math.ceil(Math.random() * 1000) % 11]
+
     });
   }
 
@@ -87,7 +108,11 @@ const MyMap = () => {
   if (geodata !== null) {
     ShapeLayers = (
       <Overlay checked name={geodata.name}>
-        <ShapeFile data={geodata.data} style={style} onEachFeature={onEachFeature} />
+        <ShapeFile 
+          data={geodata.data} 
+          style={style} 
+          onEachFeature={onEachFeature} 
+          />
       </Overlay>);
   }
 
@@ -108,7 +133,7 @@ const MyMap = () => {
       {map ? <DisplayPosition map={map} position={position} setPosition={setPosition} /> : null}
 
       <div>
-        Upload ShapeFile zip: <input type="file" onChange={handleFile} className="inputfile" />
+        Upload ShapeFile (.zip): <input type="file" accept=".zip" onChange={handleFile} className="inputfile" />
       </div>
 
       <MapContainer center={center} zoom={zoom} scrollWheelZoom={true} style={{ width: '100vw', height: "91vh" }} whenCreated={setMap} placeholder={<MapPlaceholder />}>

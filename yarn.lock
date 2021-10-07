@@ -3444,6 +3444,11 @@
     "color-convert" "^1.9.1"
     "color-string" "^1.5.4"
 
+"colorbrewer@^1.5.1":
+  "integrity" "sha512-Vst8clAzqa10z4MYDfz57WsC0LTbURYDat2+49ETzuUfvugZ5GvKtMnmyMaqFZ3Fwm6hg8oA7uBhmGVSS4Thcw=="
+  "resolved" "https://registry.npmjs.org/colorbrewer/-/colorbrewer-1.5.1.tgz"
+  "version" "1.5.1"
+
 "colorette@^1.2.1":
   "integrity" "sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw=="
   "resolved" "https://registry.npmjs.org/colorette/-/colorette-1.2.1.tgz"
@@ -5787,7 +5792,7 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
 
-"iconv-lite@^0.4.15", "iconv-lite@0.4.24":
+"iconv-lite@^0.4.15", "iconv-lite@^0.4.24", "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
   "version" "0.4.24"
