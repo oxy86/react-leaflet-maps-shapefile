@@ -1,10 +1,12 @@
 == Shapefiles of Greece
 
+- oria_dhmwn_kallikraths.zip: Greek Municipality boundaries (Kallikratis) from: https://geodata.gov.gr/en/dataset/oria-demon-kallikrates
+- periphereies.zip: Regions of Greece from https://geodata.gov.gr/en/dataset/periphereies-elladas
 
-- oria-demon-kallikrates.zip: Greek Municipality boundaries (Kallikratis) from: https://geodata.gov.gr/en/dataset/oria-demon-kallikrates
-- Regions of Greece from https://geodata.gov.gr/en/dataset/periphereies-elladas
+== World Borders
 
-== TM_WORLD_BORDERS-0.3.ZIP 
+- TM_WORLD_BORDERS-0.3.ZIP 
+- TM_WORLD_BORDERS_SIMPL-0.3.zip
 
 Provided by Bjorn Sandvik, thematicmapping.org
 

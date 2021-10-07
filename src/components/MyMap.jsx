@@ -18,11 +18,8 @@ var iconv = require('iconv-lite');
 
 const MyMap = () => {
   
-  // const colorbrewer = require('colorbrewer');
-
-  // const colorbrewer = require('color_ramps');
-  console.log(colorbrewer.schemeGroups.sequential);
-  console.log(colorbrewer)
+  // console.log(colorbrewer.schemeGroups.sequential);
+  // console.log(colorbrewer)
 
   const center = [37.983810, 23.727539]
   const zoom = 7
