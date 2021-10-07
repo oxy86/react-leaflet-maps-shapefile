@@ -1,5 +1,8 @@
 # React Leaflet Maps with Shapefile Support
 
+[![example](https://github.com/oxy86/react-leaflet-maps-shapefile/raw/main/public/app-screenshot.jpg)](#)
+
+
 This example React application uses [react-leaflet](https://www.npmjs.com/package/react-leaflet) and [shpjs](https://www.npmjs.com/package/shpjs?activeTab=readme) npm packages to display a full-screen interactive map (like google maps, without geolocation, but for free) with a simple button to upload geospatial data files in the [shapefile (.shp) spatial data format](https://en.wikipedia.org/wiki/Shapefile). As a bonus, it shows a marker on the centre of the map, and displays the latitude/longitude of that marker. :P
 
 Supports 30+ free [Tile Layers](https://wiki.openstreetmap.org/wiki/Tile_servers), i.e. OpenStreetMap, Stamen, ESRI, Stadia, USGI, etc. 
