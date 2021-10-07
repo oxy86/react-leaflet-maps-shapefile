@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-leaflet-maps-shapefile/static/css/main.ccbe1e57.chunk.css",
+    "main.js": "/react-leaflet-maps-shapefile/static/js/main.d22e8cd6.chunk.js",
+    "main.js.map": "/react-leaflet-maps-shapefile/static/js/main.d22e8cd6.chunk.js.map",
+    "runtime-main.js": "/react-leaflet-maps-shapefile/static/js/runtime-main.8c493d14.js",
+    "runtime-main.js.map": "/react-leaflet-maps-shapefile/static/js/runtime-main.8c493d14.js.map",
+    "static/css/2.07881e34.chunk.css": "/react-leaflet-maps-shapefile/static/css/2.07881e34.chunk.css",
+    "static/js/2.3ae34315.chunk.js": "/react-leaflet-maps-shapefile/static/js/2.3ae34315.chunk.js",
+    "static/js/2.3ae34315.chunk.js.map": "/react-leaflet-maps-shapefile/static/js/2.3ae34315.chunk.js.map",
+    "static/js/3.46cfe9f0.chunk.js": "/react-leaflet-maps-shapefile/static/js/3.46cfe9f0.chunk.js",
+    "static/js/3.46cfe9f0.chunk.js.map": "/react-leaflet-maps-shapefile/static/js/3.46cfe9f0.chunk.js.map",
+    "index.html": "/react-leaflet-maps-shapefile/index.html",
+    "static/css/2.07881e34.chunk.css.map": "/react-leaflet-maps-shapefile/static/css/2.07881e34.chunk.css.map",
+    "static/css/main.ccbe1e57.chunk.css.map": "/react-leaflet-maps-shapefile/static/css/main.ccbe1e57.chunk.css.map",
+    "static/js/2.3ae34315.chunk.js.LICENSE.txt": "/react-leaflet-maps-shapefile/static/js/2.3ae34315.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/react-leaflet-maps-shapefile/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c493d14.js",
+    "static/css/2.07881e34.chunk.css",
+    "static/js/2.3ae34315.chunk.js",
+    "static/css/main.ccbe1e57.chunk.css",
+    "static/js/main.d22e8cd6.chunk.js"
+  ]
+}
