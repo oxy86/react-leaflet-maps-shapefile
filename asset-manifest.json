@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-leaflet-maps-shapefile/static/css/main.7847c781.chunk.css",
-    "main.js": "/react-leaflet-maps-shapefile/static/js/main.6313b7d0.chunk.js",
-    "main.js.map": "/react-leaflet-maps-shapefile/static/js/main.6313b7d0.chunk.js.map",
+    "main.js": "/react-leaflet-maps-shapefile/static/js/main.a8837c4a.chunk.js",
+    "main.js.map": "/react-leaflet-maps-shapefile/static/js/main.a8837c4a.chunk.js.map",
     "runtime-main.js": "/react-leaflet-maps-shapefile/static/js/runtime-main.8c493d14.js",
     "runtime-main.js.map": "/react-leaflet-maps-shapefile/static/js/runtime-main.8c493d14.js.map",
     "static/css/2.07881e34.chunk.css": "/react-leaflet-maps-shapefile/static/css/2.07881e34.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.07881e34.chunk.css",
     "static/js/2.3ae34315.chunk.js",
     "static/css/main.7847c781.chunk.css",
-    "static/js/main.6313b7d0.chunk.js"
+    "static/js/main.a8837c4a.chunk.js"
   ]
 }
